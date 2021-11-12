@@ -1,0 +1,342 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+    margin: 0%;
+    
+}
+    
+
+.cha{
+    display: flex;
+    width: 100%;
+    
+   
+    
+  }
+.cha div{
+    padding: 12px 24px;
+    cursor: pointer;
+}
+.ong{
+    
+   
+    display: flex;
+    justify-content: space-between;
+    background: black;
+    color: white;
+    position: fixed;
+    width: 100%;
+    
+   
+}
+.cha div:hover{
+    color: black;
+    background: #ccc;
+}
+.more{
+    position: relative;
+}
+.more ul{
+    position: absolute;
+    background: white;
+    list-style: none;
+    left: 0;
+    top: 100%;
+    display: none;
+    padding: 0;
+  
+}
+.more ul li{
+    padding: 8px 16px;
+    width: 160px;
+    
+}
+.more ul li:hover{
+    background: #ccc;
+    color: black;
+}
+
+.more :hover ul{
+    display: block;
+}
+.more:hover ul{
+    display: block;
+}
+ul{
+    text-align: left;
+}
+.icon{
+    display: flex;
+    align-items: center;
+    padding: 15px 24px;
+}
+.icon:hover{
+    background: rgb(241, 77, 77);
+    cursor: pointer;
+}
+.mobie{
+    display: none;
+}
+.banner img{
+    margin-top: 46px;
+    width: 100%;
+    
+}
+.banner{
+    z-index: -1;
+    
+    position: relative;
+}
+.banner div{
+    color: white;
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translate(-50% ,0);
+    text-align: center;
+    padding: 32px 0;
+}
+.banner div h1{
+    padding: 32px 0;
+}
+.vanban{
+    max-width: 768px;
+    margin: auto;
+    padding: 20px 30px;
+    
+}
+.vanban h2, .vanban i{
+    text-align: center;
+    display: block;
+}
+.vanban i{
+    opacity: 0.60;
+}
+.vanban h2, .vanban i {
+    margin: 15px 0;
+    padding: 10px;
+}
+.vanban p{
+    padding: 10px o;
+    text-align: justify;
+}
+.vanban-img{
+    display: flex;
+    margin: 40px;
+    padding: 20px 0;
+}
+.img-item img{
+   
+    width: 60%;
+    border-radius: 5px;
+}
+.img-item p{
+    text-align: center;
+    margin: 20px 0;
+}
+.img-item{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.banner3{
+   
+    margin: auto;
+    text-align: center;
+    background: black;
+    padding: 64px 16px;
+    color: white;
+}
+.manhtien, .manh1 , .thanhpho-anh{
+    max-width: 800px;
+    text-align: center;
+    margin: auto;
+    
+}
+.manhtien{
+    padding: 20px ;
+}
+.manhtien h3{
+    font-size: 30px;
+    padding: 20px 0;
+}
+.manhtien i{
+    opacity: 0.60;
+}
+.manh1{
+    background: white;
+}
+.dong1{
+    color: black;
+    display: flex;
+    background: white;
+    margin-left: 16px;
+    padding: 10px 8px;
+    border-bottom: 1px solid #ccc;
+
+}
+.sold{
+    background: rgb(224, 97, 97);
+    color: white;
+    padding: 0 8px;
+}
+.number{
+    justify-content: space-between;
+
+}
+.number div{
+    background: black;
+    color: white;
+    padding: 0 8px;
+    border-radius: 50%;
+    margin-right: 16px;
+    
+}
+.manh-content{
+    background: white;
+    color: black;
+    text-align: left;
+    padding: 16px;
+
+}
+.manh-img img{
+    width: 100%;
+    display: block;
+}
+.thanhpho{
+    margin-top: 20px;
+    width: 31%;
+    display: block;
+}
+.thanhpho-anh{
+    max-width: 800px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+  
+}
+.manh-content h5{
+    margin-bottom: 15px;
+}
+.manh-content p{
+    margin: 15px 0;
+}
+.chumo{
+    opacity: 0.60;
+}
+.thanhpho button:hover{
+    background: #ccc;
+    color: black;
+    cursor: pointer;
+}
+.thanhpho button{
+    background: black;
+    color: white;
+    border: none;
+    padding: 8px 16px;
+}
+.banner4{
+    max-width: 800px;
+    background: white;
+    margin: auto;
+    padding: 64px 16px;
+}
+
+
+.contact{
+    text-align: center;
+}
+.contact h6{
+    font-size: 30px;
+    margin: 10px 0;
+
+}
+.contact i{
+    margin: 15px 0;
+    font-size: 15px;
+    display: block;
+    opacity: 0.60;
+}
+.bangten{
+    padding: 32px 0;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+.input input{
+
+    width: 100%;
+    padding: 8px 8px;
+}
+.input1{
+    width: 100%;
+    padding: 8px 8px;
+}
+.input table{
+    padding: 0 8px;
+}
+.send{
+    margin: 16px 0;
+    border: none;
+    padding: 10px 10px;
+    background: black;
+    color: white;
+}
+.bang-input{
+    text-align: right;
+    height: 150px;
+    width: 50%;
+}
+.table{
+    padding: 10px 0;
+    width: 100%;
+}
+.send:hover{
+    background: #ccc;
+    color: black;
+}
+.anhcuoi-img img{
+    width: 100%;
+}
+.icon-cuoi{
+    text-align: center;
+    padding: 64px 16px;
+}
+.nodemy{
+    padding: 15px 0;
+    opacity: 0.60;
+}
+
+
+
+
+
+
+
+@media only screen and (max-width: 600px) {
+    .decktop{
+        display: none;
+    }
+    .home:hover{
+    background: #ccc;
+    }
+    .mobie{
+        display: block;
+    }
+    .vanban-img{
+        flex-direction: column;
+    }
+    .thanhpho-anh{
+        flex-direction: column;
+    }
+    .thanhpho{
+        width: 100%;
+    }
+    .bangten{
+        flex-direction: column;
+    }
+    .bang-input{
+        width: 100%;
+    }
+}
+
